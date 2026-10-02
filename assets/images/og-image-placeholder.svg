@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CALE-AI workshop placeholder</title>
+  <desc id="desc">A dark blue and teal academic-themed banner for the CALE-AI workshop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d2340"/>
+      <stop offset="100%" stop-color="#234d76"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ca7a3"/>
+      <stop offset="100%" stop-color="#7dd3d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.25" stroke="#dfe7f1" stroke-width="1.5">
+    <circle cx="180" cy="120" r="96" fill="none"/>
+    <circle cx="180" cy="120" r="180" fill="none"/>
+    <circle cx="920" cy="470" r="86" fill="none"/>
+    <circle cx="920" cy="470" r="170" fill="none"/>
+    <line x1="180" y1="120" x2="920" y2="470"/>
+  </g>
+  <g fill="none" stroke="url(#accent)" stroke-width="5">
+    <circle cx="240" cy="180" r="18" fill="#2ca7a3"/>
+    <circle cx="540" cy="150" r="16" fill="#2ca7a3"/>
+    <circle cx="700" cy="310" r="18" fill="#2ca7a3"/>
+    <circle cx="980" cy="260" r="20" fill="#2ca7a3"/>
+    <path d="M240 180 L540 150 L700 310 L980 260"/>
+    <path d="M700 310 L540 150"/>
+  </g>
+  <g fill="#f4f7fb" font-family="Arial, sans-serif">
+    <text x="90" y="250" font-size="78" font-weight="700">CALE-AI 2027</text>
+    <text x="90" y="330" font-size="46" font-weight="600" opacity="0.92">Evaluating AI Interventions</text>
+    <text x="90" y="385" font-size="30" opacity="0.8">Causal and Longitudinal Human Effects</text>
+    <text x="90" y="452" font-size="26" opacity="0.7">AAAI-27 Workshop</text>
+  </g>
+</svg>
